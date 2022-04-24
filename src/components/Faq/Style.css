@@ -1,0 +1,98 @@
+.faq{
+    background-color: var(--theme-color);
+    position: relative;
+    overflow: hidden;
+}
+.faq div { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.faq h1{
+    font-size:4.5rem;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 2px;
+    max-width: 1000px;
+
+    font-family: 'Dela Gothic One', cursive;
+}
+.faq p {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif; 
+    max-width: 750px;
+    margin-top: 40px;
+}
+
+.shape1_about{
+    
+    position: absolute;
+    top: -15%;
+    left: 0px;
+}
+.shape2_about{
+    
+    position: absolute;
+    bottom: -30%;
+    left: -5%;
+}
+.shape3_about{
+    
+    position: absolute;
+    top: -20%;
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.offerFaq {
+    padding: 40px;
+}
+.offerFaq > div {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.offerFaq h1 {
+    margin-bottom: 2.5rem;
+    font-size: 3rem;
+    font-style: oblique;
+    font-weight: 900;
+    max-width: 400px;
+}
+ .offerFaq p{
+     margin-bottom: 20px;
+    font-size: 1rem;
+
+ }
+
+
+
+
+
+
+
+
+.boxDropdown .accordion-button::after{
+    content: none;
+}

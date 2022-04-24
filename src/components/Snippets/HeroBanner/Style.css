@@ -1,0 +1,97 @@
+.herobanner{
+    background-color: var(--theme-color); 
+}
+.wave {
+    /* background: #f8f9fd; */
+}
+.herobanner > div {
+    /* min-height: 70vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+#iframe-container {
+    min-width: 100%;
+    margin: 30px 0;
+}
+.btn-close {
+    position: absolute;
+    top: 15px;
+    right: 30px; 
+    color: var(--theme-color);
+    z-index: 9999;
+    
+}
+
+.herobanner h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    /* font-style: italic; */
+    letter-spacing: 2px;
+    max-width: 1000px;
+    /* text-transform: uppercase; */
+    /* font-family: 'Dela Gothic One', cursive; */
+    font-weight: 500;
+}
+.herobanner h1 strong {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.herobanner h1 strong img {
+    position: absolute;
+    left: 20px;
+    bottom: -18px;
+    z-index: 0;
+    width: 0% ;
+     
+    transform: translate3d(0px, 0px, 0px);
+    animation-name: underLine;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode:forwards, none;
+}
+@keyframes underLine {
+    to{
+        width: 85% ;  
+
+    }
+}
+.herobanner p {
+    color: rgb(255, 255, 255);
+    /* font-family: "Open Sans", sans-serif;  */
+    max-width: 750px;
+    margin-top: 40px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 22px;
+}
+/* .arrowtextimg{
+    position: relative;
+}
+.arrowtextimg .arrowtext{
+    position: absolute;
+    right: -90%;
+    bottom: -25%;
+} */
+
+  @media screen and (max-width: 575px){
+    .herobanner h1 strong img { 
+        left: 0px;
+        bottom: -5px;
+         
+    }
+    .herobanner h1 strong { 
+        margin-bottom: 5px; 
+    }
+    .herobanner p { 
+        max-width: 350px;
+        margin-top: 30px;
+    }
+}  

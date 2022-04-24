@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+  scroll-behavior: smooth;
+}
+:root{
+  --theme-color:#3f47cc;
+  --secondary-color: #0ad2a0;
+  --purple: #ff17e9;
+  --green: #32CD32
+}
+/*  #312f43 */
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.py-5{
+  padding-top: 40px ;
+  padding-bottom: 40px;
+}
+img{
+   max-width: 100%;
+  object-fit: cover;  
+}
+.text-center{
+  text-align: center;
+}
+body{
+  /* font-family: 'Dela Gothic One', cursive; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Cabin', sans-serif;
+
+  
+}
+p.sm {
+  font-size: 16px !important;
+  color: #c6c6c6 !important;
+}
+.container{
+  max-width: 1200px;
+  margin:0 auto;
+}
+.grid{
+  display: grid;
+  grid-gap: 15px; 
+}
+.d-flex{
+  display: flex;
+   flex-wrap: wrap;
+    
+}
+.colum{
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  box-sizing: border-box;
+  line-height: 1.2;
+  letter-spacing: inherit;
+  white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--green);
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: color calc(250ms) cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(0ms), border-color calc(250ms) cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(0ms), background-color calc(250ms) cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(0ms), box-shadow calc(250ms) cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(0ms);
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100%;
+  /* height: 3rem; */
+  padding: 14px 3.3rem;
+  overflow: visible;
+  font-weight: 700;
+  font-size: 23px;
+  text-overflow: ellipsis;
+  border-radius: 10px;
+  color: rgb(49, 47, 67);
+  background-color: var(--green);
+  position: relative;
+}
+.btn img {
+  position: absolute;
+  top: 5%;
+  right: 40%;
+  width: 100px; 
+  
+  animation-name: doddle;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-fill-mode:forwards, none;
+  transform: scale(0.3)  translateY(-50%);
+  transform: translate(40%, -5%) scale(1);
+  opacity: 0;
+}
+.bottom-btn  img {
+  width: 85px;
+  right: 29%;
+  top: 0%;
+}
+.btn span{
+  font-size: 16px;
+}
+@keyframes doddle {
+  to{ 
+      transform:translate(40%, -5%) scale(1)   ;
+      opacity: 1;
+
+  }
+}
+
+.btn:hover, .btn:focus {
+  color: rgb(49, 47, 67);
+  background-color: rgb(26 218 26);
+  border-color: rgb(26 218 26);
+}
+
+
+
+
+
+
+
+.timeline{
+  background-color: rgb(248, 249, 253);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+  .timeline-box{
+  
+  max-width: 960px;
+  padding: 3em 2rem;
+  
+  margin: 0px auto;
+  position: relative;
+}
+.line{ 
+    position: absolute;
+    top: 28px;
+    left: calc(50% - 4px);
+    width: 10px;
+    height: calc(100% - 80px);
+    background-color: rgb(10, 210, 160);
+ 
+}
+ul{
+  
+  list-style-type: none;
+}
+.timeline-box ul li{
+  
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+  position: relative;
+  display: block; 
+  overflow: hidden;
+}
+
+.ball {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: -19px;
+  background-color: rgb(255, 255, 255);
+  border: 10px solid rgb(10, 210, 160);
+  border-radius: 30px;
+  transform: translateY(-50%);
+}
+
+.left {
+  position: absolute;
+  width: calc(50% - (21px + 4.75rem));
+  height: 100%;
+  text-align: right;
+}
+.number {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.number svg {
+  width: 8.313rem;
+  min-width: 5rem;
+  height: 8rem;
+  min-height: 5rem;
+  overflow: hidden;
+  font-family: GT-Walsheim, sans-serif;
+  position: absolute;
+  
+}
+
+.right {
+  float: right;
+  width: calc(50% - 2.5rem);
+  padding: 3rem 1.5rem;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: rgba(112, 144, 176, 0.12) 0px 0px 50px;
+}
+
+.right h2 {
+  margin-bottom: 2.5rem;
+  font-size: 2.25rem;
+  font-style: oblique;
+  font-weight: 900;
+  color: var(--theme-color);
+}
+
+.reverse{}
+.reverse .left{
+  right: 0;
+  
+}
+.reverse .right{
+  float: left;
+  
+}
+
+
+
+
+
+
+
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0 ;
+}
+.navbar-toggler {
+  width: 35px;
+  border: 0;
+  padding: 0;
+  border: 0px solid #b5e3f0;
+  padding: 4px;
+  border-radius: 0;
+}
+.navbar-toggler span {
+  width: 100%;
+  display: block;
+  height: 3px;
+  background: #b5e3f0;
+  margin: 4px 0;
+}
+.navbar-toggler .middle{}

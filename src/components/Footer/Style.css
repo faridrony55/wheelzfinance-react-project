@@ -1,0 +1,144 @@
+/* footer{
+    background-color:var(--theme-color);
+    height: 100px;
+} */
+.navbar-color {
+    background-color: #3f47cc;
+}
+.footer-logo {
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.website-logo {
+    max-height: 55px;
+    vertical-align: center;
+}
+.footer-item {
+    color: #fff;
+}
+.footer-head { 
+    font-size: 20px;
+    font-weight: 900; 
+}
+#contact .footer-head {  
+    padding-left: 1rem;
+}
+.footer-head a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footer-head a:hover,
+.footer-head a.active{ 
+    color: var(--secondary-color);
+}
+.footer-Items li {
+    border-bottom: 1px solid hsla(0,0%,50%,0);
+    list-style: none;
+    margin-top: 8px;
+    width: 90%;
+}
+
+.divider {
+    background-color: #b5e3f0;
+    display: block;
+    height: 1px;
+    width: 100%;
+}
+.footer-last {
+    color: #fff;
+    padding-top: 40px;
+}
+.finance-img {
+    max-width: 80px;
+    padding: 6px;
+}
+
+
+ 
+.contactus{ 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contactus a{
+    font-size: 16px;
+    padding: 0;
+}
+
+
+.social-icons a{
+    color: #fff;
+}
+
+
+@media(max-width: 575px){
+    .footer-item { 
+        /* text-align: center; */
+    }
+    .footer-head {
+        font-size: 16px;
+    }
+    .footer-last { 
+        padding-top: 5px;
+        /* text-align: center; */
+    }
+    .website-logo {
+        max-height: 55px;
+        
+        margin-bottom: 20px;
+    }
+    .contactus {
+        text-align: left;
+    }
+    .contactus a { 
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

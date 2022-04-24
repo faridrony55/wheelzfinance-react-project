@@ -1,0 +1,86 @@
+ .container{
+     max-width: 1400px; 
+     margin: auto;
+
+ }
+ .grid img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.grid{
+    background-color: antiquewhite;
+    display: grid;
+    grid-gap: 5px; 
+    grid-template-columns: repeat(22,1fr);
+    grid-template-rows: repeat(12,1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+    grid-auto-flow: dense;
+}
+
+/* .grid div{ 
+    grid-row: auto / span 1;
+    grid-column: auto / span 1;
+} */
+.hr{
+   
+    grid-row:  span 1;
+    grid-column: span 3;
+}
+.vr{
+    grid-row:  span 1; 
+    grid-column:  span 3; 
+}
+.bg{
+    grid-row:  span 2;
+    grid-column: span 2;
+}
+.sm{
+    grid-row:  span 1;
+    grid-column: span 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.gallery-section .grid div:nth-child(1n) {
+    background-color: #06d6a0;
+  }
+  .gallery-section .grid div:nth-child(2n) {
+    background-color: #ef476f;
+  }
+  
+  .gallery-section .grid div:nth-child(3n) {
+    background-color: #118ab2;
+  }
+  
+  
+  .gallery-section .grid div:nth-child(4n) {
+    background-color: #ff58e9;
+  }
+  .gallery-section .grid div:nth-child(5n) {
+      background-color: #9ed606;
+    }
+    .gallery-section .grid div:nth-child(6n) {
+      background-color: #7b1be9;
+    }
+    
+    .gallery-section .grid div:nth-child(7n) {
+      background-color: #f12b2b;
+    }
+    
+    
+    .gallery-section .grid div:nth-child(8n) {
+      background-color: #eea700;
+    } */

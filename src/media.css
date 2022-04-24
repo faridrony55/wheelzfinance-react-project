@@ -1,0 +1,264 @@
+@media screen and (max-width: 575px) {
+    .btn { 
+        padding: 8px 2rem; 
+        font-size: 20px; 
+    }
+    .navbar-brand img {
+        max-width: 120px;
+    }
+    .navbar-nav { 
+        align-items: center;
+    }
+    ul li {
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        position: relative; 
+    }
+    .herobanner h1 {
+        font-size: 28px !important;
+        max-width: 290px !important;
+    }
+    .herobanner img.arrow {
+        width: 80px !important;
+        margin-bottom: 30px !important;
+    }
+    .herobanner p { 
+        max-width:100% !important;  
+        font-size: 16px !important;
+    }
+    .steps { 
+        padding: 2.5rem 40px !important;
+    }
+    .step { 
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .step { 
+        padding-top: 3rem !important;
+    }
+    .step li {
+        position: relative;
+        display: flex;
+        flex: 1 1;
+        flex-direction: column;
+        color: rgb(49, 47, 67);
+        font-size: 1rem;
+        padding: 5px 0 !important;
+        overflow: initial !important;
+    }
+    .step li div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 0rem;
+        font-size: 1rem;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.5rem;
+        text-align: center;
+        position: relative;
+        align-self: center;
+        width: 100%;
+        padding: 0px 0px 0px 4rem;
+        padding-top: 15px;
+        max-width: 100% !important; 
+        padding-bottom: 15px !important;
+        padding-top: 15px !important;
+        margin: 0px 0px 0rem !important;
+    }
+    .step li div::before {
+        left: 0 !important;
+        transform: translateX(0) translateY(-50%) !important;
+        top: 50% !important;
+        width: 4rem !important;
+        height: 4rem !important;
+        border: 0.25rem solid rgb(248, 249, 253) !important;
+        font-size: 2rem !important;
+        line-height: 3.5rem !important;
+    }
+    .step li div span {
+        text-align: left;
+    }
+    .step li::after {
+        position: absolute;
+        top: 3rem !important;
+        left: 32px !important;
+        z-index: 0 !important;
+        width: 2px !important;
+        height: 5.125rem !important;
+        background-color: rgb(214, 213, 217);
+        transform: translateX(0) !important;
+        content: "";
+        background-color: rgb(49, 47, 67);
+    }
+    .homeSection h2 {
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        text-align: center;
+    }
+    .homeSection h1 { 
+        font-size: 2rem !important; 
+    }
+    .homeSection h2 span {
+        font-size: 2rem !important; 
+        font-weight: 600 !important;
+        margin-top: 28px !important;
+    }
+    .col-3 {
+        flex: 1 0 100% !important;
+        padding: 10px !important; 
+    }
+    .card {
+        margin: 10px 0 0 !important;
+        padding: 1rem 15px 0rem !important;
+    }
+    .card h3 {
+        margin: 1rem 0px; 
+    }
+    .homeSection p { 
+        padding-top: 0.5rem !important; 
+    }
+    .homeSection p { 
+        max-width: 350px !important;
+        font-size: 17px !important;
+    }
+
+    .aboutus h1 {
+        font-size: 25px !important;
+        
+        max-width: 328px !important; 
+    }
+
+    .aboutus img {
+        width: 115px;
+    }
+    .aboutus div img {
+    width: 70px !important;
+}
+.about .icon-column {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+    padding: 20px;
+    display: flex !important;
+    justify-content: center !important;
+}
+.about .doc-column {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about .doc-column h3 {
+    margin-bottom: 2rem !important;
+    font-size: 2rem !important;
+    font-weight: 900;
+}
+.about { 
+    padding: 1rem 1rem 1rem 1rem !important; 
+}
+.book-section h2 { 
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    text-align: center;
+}
+.book-section p {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    text-align: center; 
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin: auto;
+}
+.gallery div {
+    flex: 1 0 50% !important;
+    padding: 10px !important;
+}
+.aboutusTimeline h1 {  
+    text-align: center;
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    text-align: center;
+}
+.timeline-box ul{
+    padding-left: 0 !important;
+}
+
+.timeline-box { 
+    padding: 3em 0rem !important;
+    margin: 0px 20px !important;  
+}
+.line { 
+    left: 0 !important;
+}
+.ball { 
+    left: 0px !important; 
+}
+.reverse .right {
+    float: right !important;
+}
+.right {  
+    width: 100% !important;
+    margin: 40px 0;
+     
+}
+.number svg { 
+    position: static !important;
+}
+.left { 
+    position: static;
+}
+.timeline-box ul li{
+    padding-left: 30px;
+}
+.right h2 {
+    margin-bottom: 2rem !important;
+    font-size: 2rem !important; 
+}
+
+.offerFaq h1 { 
+    font-size: 2rem; 
+}
+
+.faq h1 {
+    font-size: 2.5rem !important; 
+    max-width: 300px !important; 
+}
+.faq img {
+    width: 150px !important;
+    z-index: 0;
+}
+.faq div img {
+    width: 60px !important;
+}
+
+.btn img { 
+    right: 40%;
+    width: 65px;
+    
+}
+.wave {
+    
+    margin-top: -3px;
+    position: relative;
+    z-index: -3;
+}
+.features-section{
+    margin-bottom: 30px;
+}
+.space-sm{
+    height: 30px;
+}
+
+.bottom-btn img {
+    right: 25%;
+    width: 75px;
+    top: -5px;
+}
+.space { 
+    height: 40px;
+}
+}
